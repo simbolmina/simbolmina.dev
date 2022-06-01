@@ -84,7 +84,7 @@ function Hero() {
           style={{ borderRadius: '50%', overflow: 'hidden' }}
         >
           <Image
-            src="/images/avatar.png"
+            src="/Images/avatar.png"
             alt="Bilal ARKAN, drawing from Sevgi Bilgin ARKAN"
             width={400}
             height={400}

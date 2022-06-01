@@ -1,47 +1,46 @@
 import styles from './Skills.module.css';
 import Image from 'next/image';
-// import Link from 'next/link'
 
 function Skills() {
   const itemData = [
     {
       id: '01',
-      image: '/images/course-01.jpg',
+      image: '/Images/course-01.jpg',
       title: 'Build Responsive Real-World Websites with HTML and CSS',
       info: '11 section • 150 classes • 37 hours',
       link: 'https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/',
     },
     {
       id: '02',
-      image: '/images/course-02.jpg',
+      image: '/Images/course-02.jpg',
       title: 'The Complete JavaScript Course 2022: From Zero to Expert!',
       info: '21 section • 320 classes • 69 hours',
       link: 'https://www.udemy.com/course/the-complete-javascript-course/',
     },
     {
       id: '03',
-      image: '/images/course-03.jpg',
+      image: '/Images/course-03.jpg',
       title: 'React - The Complete Guide (incl Hooks, React Router, Redux)',
       info: '31 section • 494 classes • 49 hours',
       link: 'https://www.udemy.com/course/react-the-complete-guide-incl-redux/',
     },
     {
       id: '04',
-      image: '/images/course-04.jpg',
+      image: '/Images/course-04.jpg',
       title: 'Node.js, Express, MongoDB & More: The Complete Bootcamp 2022',
       info: '15 sections • 229 classes • 42 hours',
       link: 'https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/',
     },
     {
       id: '05',
-      image: '/images/course-05.jpg',
+      image: '/Images/course-05.jpg',
       title: 'React, NodeJS, Express & MongoDB - The MERN Fullstack Guide',
       info: '14 sections • 208 classes • 19 hours',
       link: 'https://www.udemy.com/course/react-nodejs-express-mongodb-the-mern-fullstack-guide/',
     },
     {
       id: '06',
-      image: '/images/course-06.jpg',
+      image: '/Images/course-06.jpg',
       title: 'Next.js & React - The Complete Guide (incl. Two Paths!)',
       info: '15 sections • 274 classes • 25 hours',
       link: 'https://www.udemy.com/course/nextjs-react-the-complete-guide/',

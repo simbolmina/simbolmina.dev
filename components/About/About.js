@@ -34,7 +34,7 @@ function About() {
           <div className={styles.logoContainer}>
             <div className={styles.logoItem}>
               <Image
-                src="/images/react.png"
+                src="/Images/react.png"
                 alt="ReactJS"
                 width={100}
                 height={100}
@@ -42,7 +42,7 @@ function About() {
             </div>
             <div className={styles.logoItem}>
               <Image
-                src="/images/node.png"
+                src="/Images/node.png"
                 alt="NodeJS"
                 width={90}
                 height={100}
@@ -50,7 +50,7 @@ function About() {
             </div>
             <div className={styles.logoItem}>
               <Image
-                src="/images/mongoDB.png"
+                src="/Images/mongoDB.png"
                 alt="MongoDB"
                 width={175}
                 height={100}

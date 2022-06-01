@@ -8,76 +8,116 @@ function Studies() {
         <div className={styles.container1}>
           <div className={styles.containerItem}>
             <Image
-              src="/images/wp.png"
+              src="/Images/wp.png"
               alt="wordpress logo"
               width={100}
               height={100}
             />
+            {/* <img
+              src="/Images/wp.png"
+              alt="ReactJS"
+              className={styles.logoItem}
+            /> */}
             <p>WORDPRESS</p>
           </div>
           <div className={styles.containerItem}>
             <Image
-              src="/images/html55.png"
+              src="/Images/html55.png"
               alt="html 5 logo"
               width={100}
               height={100}
             />
+            {/* <img
+              src="/Images/html55.png"
+              alt="ReactJS"
+              className={styles.logoItem}
+            /> */}
             <p>HTML 5</p>
           </div>
           <div className={styles.containerItem}>
             <Image
-              src="/images/csspurple.png"
+              src="/Images/csspurple.png"
               alt="css3 logo"
               width={100}
               height={100}
             />
+            {/* <img
+              src="/Images/csspurple.png"
+              alt="ReactJS"
+              className={styles.logoItem}
+            /> */}
             <p>CSS 3</p>
           </div>
           <div className={styles.containerItem}>
             <Image
-              src="/images/jsp.png"
+              src="/Images/jsp.png"
               alt="javascript logo"
               width={100}
               height={100}
             />
+            {/* <img
+              src="/Images/jsp.png"
+              alt="ReactJS"
+              className={styles.logoItem}
+            /> */}
             <p>Java Script</p>
           </div>
         </div>
         <div className={styles.container2}>
           <div className={styles.containerItem}>
             <Image
-              src="/images/react.png"
+              src="/Images/react.png"
               alt="reactjs logo"
               width={100}
               height={100}
             />
+            {/* <img
+              src="/Images/react.png"
+              alt="ReactJS"
+              className={styles.logoItem}
+            /> */}
             <p>ReactJS</p>
           </div>
           <div className={styles.containerItem}>
             <Image
-              src="/images/node.png"
+              src="/Images/wp.png"
               alt="nodejs logo"
               width={100}
               height={100}
             />
+            {/* <img
+              src="/Images/node.png"
+              alt="ReactJS"
+              className={styles.logoItem}
+            /> */}
             <p>NodeJS</p>
           </div>
           <div className={styles.containerItem}>
             <Image
-              src="/images/mongoDB.png"
+              src="/Images/mongoDB.png"
               alt="mongodb logo"
               width={150}
               height={100}
             />
+            {/* <img
+              src="/Images/mongoDB.png"
+              alt="ReactJS"
+              className={styles.logoItem}
+            /> */}
             <p>MongoDB</p>
           </div>
           <div className={styles.containerItem}>
             <Image
-              src="/images/next.png"
+              src="/Images/next.png"
               alt="nextjs logo"
               width={150}
               height={100}
             />
+            {/* <img
+              src="/Images/next.png"
+              alt="ReactJS"
+              className={styles.logoItem}
+            /> */}
             <p>NextJS</p>
           </div>
         </div>
