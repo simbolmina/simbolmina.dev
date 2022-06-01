@@ -1,0 +1,88 @@
+.aboutWrapper {
+  background-color: #2d323e;
+  color: #f0f2f4;
+  height: 70rem;
+  padding: 2.4rem;
+  font-size: 1.6rem;
+}
+
+.aboutContainer {
+  max-width: 128rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logoContainer {
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.info,
+.lang {
+  width: 48%;
+  height: 60rem;
+  display: flex;
+  flex-direction: column;
+  padding: 2.4rem;
+}
+
+.info {
+  justify-content: flex-start;
+  padding: 2.4rem;
+}
+
+.lang {
+  justify-content: flex-end;
+}
+
+.aboutMe {
+  margin-bottom: 2.4rem;
+}
+
+.aboutMe a {
+  color: #6741d9;
+}
+
+.aboutMe span {
+  border-bottom: 4px solid #6741d9;
+  font-weight: bold;
+}
+
+.purple {
+  color: #6741d9;
+  /* color: #ae3ec9; */
+  font-size: 1.8rem !important;
+}
+
+.info h2,
+.lang h2 {
+  font-size: 4.4rem;
+  display: inline-block;
+  /* margin-top: 0; */
+}
+.info span,
+.lang span {
+  font-size: 2.4rem;
+}
+
+@media (max-width: 1150px) {
+  .info {
+    width: 100%;
+    height: 100%;
+  }
+  .lang {
+    width: 100%;
+    height: auto;
+  }
+
+  .aboutWrapper {
+    height: 100%;
+  }
+  .aboutContainer {
+    flex-direction: column;
+  }
+}

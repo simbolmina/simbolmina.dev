@@ -1,0 +1,161 @@
+.heroWrapper {
+  height: 80rem;
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  padding: 24px;
+  color: #f0f2f4;
+}
+
+.contentWrapper {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heroImageContainer {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.heroImageContainer p {
+  font-size: 0.8rem;
+}
+
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.intro {
+  font-size: 2rem;
+  border-bottom: 4px solid #6741d9;
+  margin-bottom: 2rem;
+  display: inline-block;
+}
+
+.developer {
+  font-size: 5.2rem;
+  margin-bottom: 2rem;
+  color: #6741d9;
+}
+
+.heroImage {
+  border-radius: 50%;
+}
+
+.heroInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 1.4rem;
+}
+
+.heroInfoItem {
+  display: flex;
+  align-items: center;
+}
+
+.heroInfoItem svg {
+  margin-right: 1rem;
+}
+
+.heroInfoItemLink {
+  transition: all 3;
+}
+.heroInfoItemLink:hover {
+  color: #6741d9;
+  cursor: pointer;
+}
+
+.icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+@media (max-width: 1150px) {
+  .heroContent .dynamicTexts {
+    font-size: 6.2rem;
+  }
+
+  .developer {
+    font-size: 5.2rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .heroWrapper {
+    height: 100%;
+    flex-direction: column;
+    padding: 4.8rem;
+  }
+  .heroImageContainer {
+    margin: 3.2rem 0;
+    align-items: center;
+    width: 100%;
+  }
+
+  .heroImage {
+    width: 30rem;
+  }
+
+  .contentWrapper {
+    gap: 1.2rem;
+  }
+}
+
+/* //////////ANIMATION//////// */
+
+.wrapper {
+  display: flex;
+}
+
+.dynamicText {
+  margin-left: -4rem;
+  line-height: 90px;
+  height: 90px;
+  overflow: hidden;
+}
+
+.dynamicText li {
+  list-style: none;
+  color: #f0f2f4;
+  font-size: 60px;
+  font-weight: 600;
+  top: 0;
+  position: relative;
+  animation: slide 8s steps(4) infinite;
+}
+
+@keyframes slide {
+  100% {
+    top: -360px;
+  }
+}
+
+.dynamicText li::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #1b1f24;
+  border-left: 2px solid #f0f2f4;
+  animation: typing 2s steps(7) infinite;
+}
+
+@keyframes typing {
+  40%,
+  60% {
+    left: calc(100% + 30px);
+  }
+  100% {
+    left: 0;
+  }
+}

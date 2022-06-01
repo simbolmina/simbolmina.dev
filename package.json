@@ -9,9 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "email-validator": "^2.0.4",
     "next": "12.1.6",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "react-hook-form": "^7.31.3"
   },
   "devDependencies": {
     "eslint": "8.16.0",

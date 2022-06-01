@@ -1,0 +1,110 @@
+.contactWrapper {
+  background-color: #2d323e;
+  font-size: 1.6rem;
+}
+
+.contactContainer {
+  height: 60rem;
+  color: #f0f2f4;
+  max-width: 1280px;
+  margin: 0 auto 24px;
+  display: flex;
+  padding: 0 2.4rem;
+}
+
+.formContainer {
+  display: flex;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  width: 40%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 2.4rem;
+}
+
+.heading span {
+  margin: 10rem 0;
+}
+
+.heading span span {
+  font-size: 2.4rem;
+  border-bottom: 3px solid #6741d9;
+  font-weight: bold;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  /* gap: 3.6rem; */
+  max-width: 50rem;
+}
+
+.formInput {
+  height: 4rem;
+  background-color: #2d323e;
+  border: none;
+  border-bottom: 2px solid #f0f2f4;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #f0f2f4;
+  outline: none;
+  font-family: 'SpaceGrotesk', sans-serif;
+}
+
+.message {
+  height: 12rem;
+  font-family: 'SpaceGrotesk', sans-serif;
+  font-weight: 600;
+}
+.btn {
+  width: 50rem;
+  height: 6rem;
+  border: none;
+  background-color: #2d323e;
+  border: 1px solid #f0f2f4;
+  border-radius: 12px;
+  color: #f0f2f4;
+  font-size: 2rem;
+  transition: all 0.3s;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn:hover {
+  border: none;
+  background-color: #6741d9;
+}
+
+.green {
+  background-color: green;
+}
+
+.errorMessage {
+  color: #e03131;
+}
+
+@media (max-width: 900px) {
+  .contactContainer {
+    flex-direction: column;
+    height: 100%;
+    gap: 2.4rem;
+  }
+
+  .formContainer {
+    width: 100%;
+  }
+
+  .heading {
+    width: 100%;
+    align-items: center;
+    margin-bottom: 2.4rem;
+  }
+
+  .btn {
+    width: 40rem;
+  }
+}
