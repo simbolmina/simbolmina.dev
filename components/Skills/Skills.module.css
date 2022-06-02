@@ -82,7 +82,6 @@
 
 .educationSchool {
   color: #f0f2f4;
-  /* height: 20rem; */
   padding: 1.2rem;
   display: flex;
   width: 100%;
@@ -230,7 +229,20 @@
 }
 
 @media (max-width: 600px) {
+  .skillsWrapper {
+    font-size: 1.4rem;
+  }
   .imageContainer {
     display: none;
+  }
+
+  .educationSchool {
+    color: #f0f2f4;
+    /* height: 20rem; */
+    padding: 0;
+  }
+
+  .educationSchoolUniversity {
+    font-size: 1.4rem;
   }
 }

@@ -60,6 +60,7 @@
 
 @media (max-width: 900px) {
   .navItem {
+    font-size: 2rem;
     display: none;
   }
 
