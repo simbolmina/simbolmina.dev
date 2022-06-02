@@ -162,8 +162,11 @@
 }
 
 @media (max-width: 700px) {
+  .heroInfoItem {
+    font-size: 1rem;
+  }
   .heroInfoItemLink {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .dynamicText {
     margin-left: -4rem;

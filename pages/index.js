@@ -14,7 +14,7 @@ export default function Home() {
         <title>simbolmina.dev</title>
         <meta
           name="description"
-          content="This is my portfolio created using NextJS. Bilal ARKAN, a ReactJS, NodeJS, MongoDB, MERN Developer"
+          content="This is my portfolio created using NextJS. Bilal ARKAN, a ReactJS, NodeJS, MongoDB, MERN Developer located in Istanbul, Turkey. Freelancer web React developer"
         />
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />

@@ -11,7 +11,14 @@ function About() {
           </div>
           <h2>I am a web developer since 2020</h2>
           <p>
-            My first web project was to create a website for my own podcast
+            My first web project was to create a website for my own Poscast
+            <a
+              href="https://www.filozofunyolu.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span className={styles.purple}> Filozofun Yolu </span>
+            </a>
             years ago. I had an udemy course about Wordpress, an unnecesseraly
             long and detailed course at that, and created my website. {`It's `}
             still on wp but {`I'll `} recreate it with NextJS soon.
