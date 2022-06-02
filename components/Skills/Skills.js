@@ -73,15 +73,7 @@ function Skills() {
                   Ondokuz Mayis University
                 </h3>
                 <div className={styles.educationSchoolInfo}>
-                  Philosopy is my most exiting passion. I do have a{' '}
-                  <a
-                    href="https://www.filozofunyolu.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Podcast
-                  </a>{' '}
-                  about that.
+                  Philosopy is still my most exiting passion.
                 </div>
               </div>
             </div>
@@ -97,8 +89,8 @@ function Skills() {
                   Atatürk University
                 </h3>
                 <div className={styles.educationSchoolInfo}>
-                  After deciding web development I started computer programming
-                  to learn fundemantels of programming
+                  I started computer programming to learn fundemantels of
+                  programming
                 </div>
               </div>
             </div>
