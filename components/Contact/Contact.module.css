@@ -1,6 +1,7 @@
 .contactWrapper {
   background-color: #2d323e;
   font-size: 1.6rem;
+  margin-bottom: 6.2rem;
 }
 
 .contactContainer {
@@ -9,7 +10,7 @@
   max-width: 1280px;
   margin: 0 auto 24px;
   display: flex;
-  padding: 0 2.4rem;
+  /* padding: 0 2.4rem; */
 }
 
 .formContainer {
@@ -106,5 +107,11 @@
 
   .btn {
     width: 40rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .btn {
+    width: 30rem;
   }
 }

@@ -84,22 +84,12 @@ function Hero() {
           style={{ borderRadius: '50%', overflow: 'hidden' }}
         >
           <Image
-            src="/Images/avatar.png"
+            src="/Images/myavatar.png"
             alt="Bilal ARKAN, drawing from Sevgi Bilgin ARKAN"
-            width={400}
-            height={400}
+            width={600}
+            height={600}
           />
         </div>
-        <p>
-          Image from{' '}
-          <a
-            href="https://www.instagram.com/sba.illustrations/"
-            rel="noreferrer"
-            target="_blank"
-          >
-            Sevgi Bilgin ARKAN
-          </a>
-        </p>
       </div>
     </section>
   );

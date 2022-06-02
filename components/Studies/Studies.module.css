@@ -38,16 +38,13 @@
   margin-bottom: 0;
 }
 
-/* @media (max-width: 980px) {
-  .studiesWrapper {
-    flex-wrap: wrap;
-  }
-
+@media (max-width: 980px) {
   .containerItem {
-    width: 10rem;
+    width: 5rem;
   }
 
-  .container {
-    flex-wrap: wrap;
+  .container1 p,
+  .container2 p {
+    font-size: 1.2rem;
   }
-} */
+}
