@@ -154,6 +154,7 @@
 
   .courseContainer {
     width: 100%;
+    margin-top: 4rem;
     /* padding-left: 3.6rem; */
   }
   .educationContainer {
@@ -167,6 +168,10 @@
   .titleContainer p {
     width: 100%;
     margin-bottom: 4rem;
+  }
+
+  .infoContainer a {
+    font-size: 1.4rem;
   }
 }
 
